@@ -90,3 +90,7 @@
   top: 10px;
   right: 15px;
 }
+
+.accordion .card-header .btn-block{
+	white-space: normal;
+}
