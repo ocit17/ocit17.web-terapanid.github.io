@@ -1,0 +1,92 @@
+.text-orange {
+  color: #ff7607;
+}
+
+.custom-pill {
+  border-radius: 40px;
+}
+
+.pill-one {
+  border-radius: 10px;
+}
+
+.badge-mine-2 {
+  background-color: #ff7607;
+}
+
+.custom-widget-section {
+  background-color: #232427;
+  border-bottom: 1px solid #333;
+}
+
+.custom-widget-section .widget-content h4 {
+  color: #fff;
+}
+
+.custom-footer-section {
+  background-color: #232427;
+  display: block;
+  color: #fff;
+  text-align: center;
+  padding: 25px 0;
+}
+
+.custom-footer-section p {
+  font-size: 12px;
+  color: #ababc7;
+  margin: 0;
+}
+
+.custom-content-wrap {
+  display: flex;
+  align-items: center;
+}
+
+.custom-content-wrap img {
+  border-radius: 20px;
+}
+
+.about-course-section {}
+
+.about-course-section.bg-dark .dots {
+	width: 100%;
+	height: 100%;
+	left: 0;
+	top: 0;
+	background: url(../img/bg-dots.png) 0 0 repeat;
+	z-index: -1
+}
+
+.panel-title {
+  position: relative;
+}
+  
+.panel-title::after {
+  content: "\f107";
+  color: #333;
+  top: -2px;
+  right: 0px;
+  position: absolute;
+  font-family: "FontAwesome"
+}
+
+.panel-title[aria-expanded="true"]::after {
+  content: "\f106";
+}
+
+/*
+ * Added 12-27-20 to showcase full title clickthrough
+ */
+
+.panel-heading-full.panel-heading {
+  padding: 0;
+}
+
+.panel-heading-full .panel-title {
+  padding: 10px 15px;
+}
+
+.panel-heading-full .panel-title::after {
+  top: 10px;
+  right: 15px;
+}
